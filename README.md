@@ -1,7 +1,5 @@
 # FinancePulse - Real-time Financial News Platform
 
-![FinancePulse Demo](https://via.placeholder.com/800x400?text=FinancePulse+Demo)
-
 ## 📈 Overview
 
 FinancePulse is a real-time financial news aggregator built with Flask and modern front-end technologies. The platform fetches the latest financial market news, stock trends, and market summaries to keep users informed about the financial world.
@@ -64,7 +62,7 @@ FinancePulse is a real-time financial news aggregator built with Flask and moder
 ## 📁 Project Structure
 
 ```
-financial-news-app/
+finance-news-app/
 ├── app.py                # Flask application
 ├── .env                  # Environment variables (create this file)
 ├── requirements.txt      # Python dependencies
@@ -72,6 +70,7 @@ financial-news-app/
 ├── static/
 │   ├── css/
 │   │   └── styles.css    # Application styling
+│   ├── img/              # Website images
 │   └── js/
 │       └── main.js       # Frontend JavaScript
 └── templates/
@@ -84,14 +83,6 @@ This project uses the Alpha Vantage API to fetch financial data:
 
 - **Financial News**: `/api/news` endpoint fetches the latest market news
 - **Market Trends**: `/api/market_trends` endpoint retrieves top gainers and losers
-
-## 🖼️ Screenshots
-
-### Desktop View
-![Desktop View](https://via.placeholder.com/800x600?text=Desktop+View)
-
-### Mobile View
-![Mobile View](https://via.placeholder.com/400x800?text=Mobile+View)
 
 ## 🧩 Future Enhancements
 
